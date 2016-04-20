@@ -22,9 +22,10 @@ public class SecurityTest {
 		String lol = signatureUtil.digest(xml, "MD5");
 		String signature = signatureUtil.generateSignature(appid, token, lol, millis);
 
-		System.out.println(xml);//bbbb
+		System.out.println(xml);//bbbbaaaa
 		System.out.println(signature);
 
+		
 		Map<String, String> paraMap = new HashMap<String, String>();
 
 		paraMap.put("sign", signature);
