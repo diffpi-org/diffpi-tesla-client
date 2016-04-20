@@ -13,7 +13,7 @@ public class SecurityTest {
 		Signature signatureUtil = new Signature();
 
 		String appid = "canairport001";
-		String token = "aaaaa";//asdasdsadasd  aaaa    
+		String token = "aaaaa";//asdasdsadas
 		String key = aes.findKeyById(appid);
 		long millis = System.currentTimeMillis();
 		String xml = "{\"json\" : \"asdasd\"}";
@@ -22,7 +22,7 @@ public class SecurityTest {
 		String lol = signatureUtil.digest(xml, "MD5");
 		String signature = signatureUtil.generateSignature(appid, token, lol, millis);
 
-		System.out.println(xml);//ddddd
+		System.out.println(xml);
 		System.out.println(signature);
 
 		
