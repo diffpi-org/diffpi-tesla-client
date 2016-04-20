@@ -1,0 +1,5 @@
+[
+  {"title":"A区","subtitle":"A区1-14","ranges":[150,225,300],"measures":[220,270],"markers":[250]},
+  {"title":"B区","subtitle":"B区2-18","ranges":[20,25,30],"measures":[21,23],"markers":[26]},
+  {"title":"C区","subtitle":"C区1-16","ranges":[350,500,600],"measures":[100,120],"markers":[550]}
+]

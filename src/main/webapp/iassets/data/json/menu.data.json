@@ -1,0 +1,97 @@
+[
+	{"name" : "主页" , "url" : "html/homepage/homepage.html" , "icon" : "icon-home2"},
+	{"name" : "数据仓库" ,"icon" : "icon-books" , "menu" : [
+		{"name" : "外围数据" , "url" : "page/wwData.html" },
+		{"name" : "内部系统" , "url" : "page/databaseCenter.html" }
+	]},
+	{"name" : "参考数据" ,"icon" : "icon-pie-chart2" , "menu" : [
+		{"name" : "租赁资源信息" , "url" : "page/borrowDynamic.html" },
+		{"name" : "WIFI数据分析" , "url" : "page/WIFI_statistics.html" },
+		{"name" : "微信/APP使用情况" , "url" : "page/wechat_statistics.html" },
+		{"name" : "消费监听数据" , "url" : "page/consumptionListen.html" },
+		{"name" : "商户评价" , "url" : "page/sellerStar.html" },
+		{"name" : "招商代理" , "url" : "page/storeAgent.html" },
+		{"name" : "室内地图"  , "menu" : [
+			{"name" : "方案一" , "url" : "page/storeMap1.html" },
+			{"name" : "方案二" , "url" : "page/storeMap2.html" },
+			{"name" : "方案三" , "url" : "page/storeMap3.html" }
+			] },
+		{"name" : "POS消费记录" , "url" : "page/POS_consumption.html" },
+		{"name" : "消费者标签管理" , "url" : "page/consumerTags.html" },
+		{"name" : "消息精准推送" , "url" : "page/publishToTag.html" },
+		{"name" : "推广效果评估" , "url" : "page/publishResult.html" }
+	]},
+	{"name" : "活动信息"  ,"warning" : "6" ,"errcode" : "400" , "icon" : "icon-cart5", "menu" : [
+	    {"name" : "活动申请" ,"warning" : "1" ,"errcode" : "400" , "url" : "html/activity/activity_list.html" },
+		{"name" : "活动审核" ,"warning" : "5" ,"errcode" : "400" , "url" : "html/activity/activity_manage.html" },
+		{"name" : "活动总览"  ,"errcode" : "400" , "url" : "page/realtimePanel.html" }
+	]},
+	{"name" : "社群活动"  ,"warning" : "6" ,"errcode" : "400" , "icon" : "icon-presentation", "menu" : [
+	    {"name" : "活动信息" ,"warning" : "1" ,"errcode" : "400" , "url" : "html/meetingactivity/activity_list.html" },
+	    {"name" : "组织架构" ,"warning" : "1" ,"errcode" : "400" , "url" :"page/Organization.html" },
+	    {"name" : "志愿者"  , "menu" : [
+			{"name" : "志愿者审核" , "url" : "page/volunteers_review.html" },
+			{"name" : "志愿者安排" , "url" : "page/volunteer_arrangements.html" }
+			] },
+		{"name" : "报名管理" ,"warning" : "1" ,"errcode" : "400" , "url" : "page/activity_registration.html" },
+		{"name" : "签到管理" ,"warning" : "1" ,"errcode" : "400" , "url" : "page/activity_sign.html" },
+		{"name" : "现场管控" ,"warning" : "1" ,"errcode" : "400" , "url" : "page/activity_onsite_control.html" },
+	    {"name" : "营销平台" ,"warning" : "2" ,"errcode" : "400" , "url" : "html/advertisement/advertisement_index.html" },
+	    {"name" : "渠道管理" ,"warning" : "2" ,"errcode" : "400" , "url" : "" },
+		{"name" : "现场人流量统计" , "url" : "page/member_flow.html" },
+		{"name" : "运行情况分析" , "url" : "page/activity_result.html" }
+	]},
+	{"name" : "活动统计"  ,"warning" : "6" ,"errcode" : "400" , "icon" : "icon-stats-dots", "menu" : [
+	    {"name" : "数据汇总" , "url" : "page/statistic_flow.html" },
+	    {"name" : "趋势分析" , "url" : "page/trendAnalysis.html" },
+		{"name" : "对比分析" , "menu" : [
+			{"name" : "同期活动对比" ,"url" : "page/comparative_analysis.html"},
+			{"name" : "横向活动对比" ,"url" : "page/horizontal_comparison.html"},
+			{"name" : "纵向活动对比" ,"url" : "page/longitudinal_comparison.html"}
+			]},
+		{"name" : "排行榜" , "url" : "html/activitystatistic/top.html" }
+	]},
+	{"name" : "消费者中心"  ,"warning" : "6" ,"errcode" : "400" , "icon" : "icon-users", "menu" : [
+	    {"name" : "会员信息" ,"warning" : "1" ,"errcode" : "400" , "url" : "page/memberInformation.html" }
+	]},
+	{"name" : "合同管理"  , "icon" : "icon-stamp","warning" : "6" ,"errcode" : "400" , "menu" : [
+	    {"name" : "合同台账" ,"warning" : "6" ,"errcode" : "400" , "url" : "html/contract/contract_index.html" }
+	]},
+	{"name" : "租赁服务"  , "icon" : "icon-notebook", "menu" : [
+	    {"name" : "服务概况" , "url" : "page/borrowService.html" }
+	]},
+	{"name" : "人员分工"  , "icon" : "icon-users4", "menu" : [
+	    {"name" : "分工计划" , "url" : "page/employeeDistribute.html" }
+	]},
+	{"name" : "安防管理"  ,"warning" : "6" ,"errcode" : "400" , "icon" : "icon-shield-check", "menu" : [
+	    {"name" : "排班管理" ,"warning" : "2" ,"errcode" : "400" , "url" : "page/safeDuty.html" },
+	    {"name" : "日志管理" ,"warning" : "2" ,"errcode" : "400" , "url" : "page/safeLog.html" },
+	    {"name" : "设施运维" ,"warning" : "2" ,"errcode" : "400" , "url" : "page/safeEquipment.html" }
+	]},
+	{"name" : "清洁管理"  ,"warning" : "6" ,"errcode" : "400" , "icon" : "icon-droplet", "menu" : [
+	    {"name" : "排班管理" ,"warning" : "3" ,"errcode" : "400" , "url" : "page/clearDuty.html" },
+	    {"name" : "日志管理" ,"warning" : "3" ,"errcode" : "400" , "url" : "page/clearLog.html" }
+	]},
+	{"name" : "活动规则库"  , "icon" : "icon-cabinet", "menu" : [
+		{"name" : "规则列表" , "url" : "html/rulebank/rule_list.html" },
+		{"name" : "活动类型" , "url" : "html/rulebank/activity_type.html" },
+		{"name" : "活动组织者", "url" : "html/rulebank/activity_organizer.html"},
+		{"name" : "活动资源", "url" : "html/rulebank/activity_resource.html"},
+		{"name" : "业务参数设置", "url" : "html/rulebank/bizparam_conf.html"},
+		{"name" : "费项定义", "url" : "html/rulebank/define_cost.html"},
+		{"name" : "计量表管理", "url" : "html/rulebank/gauges_manage.html"}
+	]
+	},
+	{"name" : "客户端"  , "icon" : "icon-iphone", "menu" : [
+		{"name" : "顾客端" , "url" : "page/guestApp.html" },
+		{"name" : "管理端" , "url" : "page/adminApp.html" },
+		{"name" : "安保端" , "url" : "page/safeApp.html" },
+		{"name" : "保洁端" , "url" : "page/cleanApp.html" }
+	] },
+	{"name" : "轨迹管理"  , "icon" : "icon-cabinet", "menu" : [
+		{"name" : "实体" , "url" : "html/track/entity/entity_index.html" },
+		{"name" : "围栏" , "url" : "" },
+		{"name" : "轨迹图" , "url" : "http://yingyan.baidu.com/track.html?i=112982" }
+	]
+	}
+]

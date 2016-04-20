@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html style="width: 100%;height: 100%;">
+  <head>
+    <title>content</title>
+	<base href="/yc/">
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/icons/fontawesome/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/core.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/colors.min.css" rel="stylesheet" type="text/css">
+
+	<!-- Core JS files -->
+	<script type="text/javascript" src="assets/js/plugins/loaders/pace.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/tables/datatables/datatables.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/nicescroll.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script type="text/javascript" src="assets/js/plugins/velocity/velocity.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/velocity/velocity.ui.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/prism.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins/ui/headroom/headroom.min.js"></script> 			 <!-- 顶部菜单栏隐藏依赖 -->
+	<script type="text/javascript" src="assets/js/plugins/ui/headroom/headroom_jquery.min.js"></script><!-- 顶部菜单栏隐藏依赖part2 -->
+	<script type="text/javascript" src="assets/js/plugins/forms/selects/select2.min.js"></script>
+	<!-- /theme JS files -->
+
+	<script type="text/javascript" src="iassets/js/pages/main/layout_fixed_content.js"></script>
+	
+  </head>
+  
+  <body style="width: 100%;height: 100%;">
+  </body>
+  <script type="text/javascript">
+  		var basePath = "/yc/";
+  		
+  		$(function(){
+  	    	var location = window.location+"";
+  	    	var hash = location.substr(location.indexOf("#")+1);
+   			$("body").load(basePath+hash+"?t="+new Date().getTime(),function(response,status,xhr){
+   				
+   			});
+   			
+   			top.scrollTo(0,0);
+  		});
+  		
+  </script>
+</html>

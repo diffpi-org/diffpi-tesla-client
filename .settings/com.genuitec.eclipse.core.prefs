@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+validator.Checked=WebRoot/demodata/user_scope.json,WebRoot/beyond-admin/page/common/inc/_sidebar.html,WebRoot/demodata/scope.json,WebRoot/beyond-admin/page/biz-logic/oa/emp/look.html,WebRoot/beyond-admin/page/biz-logic/oa/emp/edit.html,WebRoot/beyond-admin/page/common/inc/_js.html
+validator.Unchecked=
