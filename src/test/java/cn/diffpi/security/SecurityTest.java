@@ -13,7 +13,7 @@ public class SecurityTest {
 		Signature signatureUtil = new Signature();
 
 		String appid = "canairport001";
-		String token = "aaaaa";//asdasdasdasd
+		String token = "aaaaa";//bbbb
 		String key = aes.findKeyById(appid);
 		long millis = System.currentTimeMillis();
 		String xml = "{\"json\" : \"asdasd\"}";
@@ -25,6 +25,7 @@ public class SecurityTest {
 		System.out.println(xml);//asdasdasaaa
 		System.out.println(signature);
 
+		
 		Map<String, String> paraMap = new HashMap<String, String>();
 
 		paraMap.put("sign", signature);
