@@ -13,7 +13,7 @@ public class SecurityTest {
 		Signature signatureUtil = new Signature();
 
 		String appid = "canairport001";
-		String token = "aaaaa";//asdasdsadasd
+		String token = "aaaaa";//asdasdsadasd    
 		String key = aes.findKeyById(appid);
 		long millis = System.currentTimeMillis();
 		String xml = "{\"json\" : \"asdasd\"}";
